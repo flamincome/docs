@@ -2,4 +2,10 @@
 
 > farmer on plural blockchains
 
-INTRODUCTION: TODO
+# Guide
+
+[FlamIncome Terminal Guide](/guide/terminal)
+
+# Reference
+
+[FlamIncome Terminal Reference](/reference/terminal)
