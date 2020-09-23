@@ -7,3 +7,5 @@ Use the [FlamIncome App](https://app.flamincome.finance) or [Income Page of Flam
 # Commands
 
 - [help](help.md)
+- [connect-wallet](connect-wallet.md)
+- [deposit-token-to-vault](deposit-token-to-vault.md)
