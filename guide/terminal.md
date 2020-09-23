@@ -1,8 +1,8 @@
 # FlamIncome Terminal
 
-[FlamIncome Terminal](https://flamincome.finance) provide a terminal UI for professional users
+[FlamIncome Terminal](https://flamincome.finance) provide a terminal UI for professional users.
 
-Use the [FlamIncome App](https://app.flamincome.finance) or [Income Page of Flamingo (not available now)](#) if you feel the terminal UI is uncomfortable
+Use [Income Page of Flamingo](https://flamingo.finance/income) if you feel the terminal UI is uncomfortable.
 
 # Guide
 
@@ -22,6 +22,18 @@ For more info about all the commands, see [FlamIncome Terminal Reference](https:
 
     ```sh
     deposit-token-to-vault USDT 1000
+    ```
+
+1. (optional): type the following command to see the address of flamincomed token and add it to metamask (click the `Add Token` button on the `Assets`, then click `Custom Token` and paste the address into `Token Contract Address`)
+
+    ```sh
+    list-registry-of-vault
+    ```
+
+1. (optional): type the following command to see your flamincomed token balance
+
+    ```sh
+    get-balance-of-ftoken-by-symbol USDT
     ```
 
 ## Withdraw Token from FlamIncome
