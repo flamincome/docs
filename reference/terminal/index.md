@@ -2,7 +2,7 @@
 
 [FlamIncome Terminal](https://flamincome.finance) provide a terminal UI for professional users.
 
-Use [Income Page of Flamingo](https://flamingo.finance/income) if you feel the terminal UI is uncomfortable.
+Use [FlamIncome Web App](https://app.flamincome.finance/) or [Income Page of Flamingo](https://flamingo.finance/income) if you feel the terminal UI is uncomfortable.
 
 # Commands
 
