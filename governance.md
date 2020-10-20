@@ -48,8 +48,9 @@ Weak proposals don't make any actual changes, but it is the opinion of the commu
 
 ## Strong Proposal
 
-To propose a strong proposal, // TODO
+To propose a strong proposal, like minting `FLAG` tokens to distribute to someone, or propose a new strategy. These kind of proposals will be regarded as strong proposal, which will be executed immediately once approved by voting, therefore no one can stop an approved strong proposal, including the Flamincome team.
 
 ## Weak Proposal
 
-To propose a weak proposal, // TODO
+To propose a weak proposal, like expressing someone's opinions and views in the community, which will not result in any execution on smart contract, thus weak proposals don't make any actual changes.
+
