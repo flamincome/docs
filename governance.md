@@ -23,24 +23,20 @@ The high inflation rate is for continuously incentive the new contributors, in a
 
 ## Staking Rewards
 Stake LP(liquidity provider) tokens to mint FLAG. 
-Now we support `6` LP tokens from Uniswap(`nwbtc/wbtc`, `nweth/weth`, `nusdt/usdt`) and Curve (`nwbtc/wbtc`, `nweth/weth`, `nusdt/usdt`)  to stake and get FLAG. 6 pools will share the rewards equally(i.e. `0.33^20`/pool for first year). The rewards will be calculated by year for our FLAG distribution strategy. FLAG will be allocated to who has staked proportional to the total time and the ratio of individual LP tokens to totalsupply.
+Currently we support `3` LP tokens from Curve (`nWBTC`, `nWETH`, `nUSDT`)  to stake and get FLAG. 3 pools will share the rewards equally. The rewards will be calculated by year for our FLAG distribution strategy. FLAG will be allocated to who has staked proportional to the total time and the ratio of individual LP tokens to totalsupply.
 
 ## Voting Rewards
 This is an Incentive plan to encourage everyone to participate in the governance of community.
 Voting rewards are calculated based on the equation below:
-$$
-gap_{i}=startDate_{i}-startDate_{i-1}
-$$
-$$
-rewards_{i}=\frac{stake}{yea_{i}+nay_{i}}*\frac{gap_{i}}{oneYear}*totalSupply
-$$
-$$
-rewards=\sum rewards_{i}
-$$
+```
+gapi = startDatei - startDatei-1 
+rewardsi = stake/(yeai+nayi) * gapi/oneYear * totalSupply
+rewards = ∑rewardsi
+```
 
 In the equation, `i` means that you are the `ith` person voting. `gapi` is the total time from the last vote to now. if `i` equals 1, `startDate0` means the start time of this vote. `stake` is the LP tokens one has staked. `yeai` and `nayi` are referred to the sum of concurring and dissenting vote when voting.
 
-The community's first vote will be on the inflation of token allocation to the Flamincome project team. When voting one can choose YES/NO to decide whether to increase the team FLAG by `5%` every time.
+The community's first vote will be on the inflation of token allocation to the Flamincome project team. When voting one can choose YES/NO to decide whether to increase the team FLAG by `6.25%` every time.
 
 # FlamIncome Improvement Proposal
 
