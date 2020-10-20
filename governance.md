@@ -29,8 +29,12 @@ Now we support `6` LP tokens from Uniswap(`nwbtc/wbtc`, `nweth/weth`, `nusdt/usd
 This is an Incentive plan to encourage everyone to participate in the governance of community.
 Voting rewards are calculated based on the equation below:
 $$
-gap_{i}=startDate_{i}-startDate_{i-1}   \\
-rewards_{i}=\frac{stake}{yea_{i}+nay_{i}}*\frac{gap_{i}}{oneYear}*totalSupply\\
+gap_{i}=startDate_{i}-startDate_{i-1}
+$$
+$$
+rewards_{i}=\frac{stake}{yea_{i}+nay_{i}}*\frac{gap_{i}}{oneYear}*totalSupply
+$$
+$$
 rewards=\sum rewards_{i}
 $$
 
