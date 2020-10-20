@@ -15,9 +15,9 @@ The symbol of FlamIncome Governance Token is `FLAG` and its total supply in the 
 
 Since the second year, `FLAG` inflation rate will be `100%` per year, which means, total suply is `2097152` in the second year, total supply is `4194304` in the third year ...
 
-`50%` of the infalted tokens (including the inital supply in the first year) will be distributed to the liquidity provider between `nXXX` tokens (i.e. `nUSDT`) and original `XXX` (i.e. `USDT`) tokens.
+`50%` of the inflated tokens (including the inital supply in the first year) will be distributed to the liquidity provider between `nXXX` tokens (i.e. `nUSDT`) and original `XXX` (i.e. `USDT`) tokens.
 
-The other `50%` of the infalted tokens (including the inital supply in the first year) will be distributed to users who participate in the governance (voters).
+The other `50%` of the inflated tokens (including the inital supply in the first year) will be distributed to users who participate in the governance (voters).
 
 The high inflation rate is for continuously incentive the new contributors, in another word, if one hold `1` `FLAG`, the only way to keep its token weight (anti-inflation) is to provide liquidity continuously or vote in the DAO.
 
