@@ -21,7 +21,7 @@ withdraw-lp-token <TOKEN_SYMBOL> [AMOUNT]
 - withdraw `100` `UNI-V2[WBTC]` liquidity token
 
     ```sh
-    withdraw-lp-token UNI-V2[WBTC] 100 
+    withdraw-lp-token UNI-V2[WBTC] 0.01 
     ```
 
     

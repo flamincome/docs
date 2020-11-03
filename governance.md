@@ -23,7 +23,7 @@ The high inflation rate is for continuously incentive the new contributors, in a
 
 ## Staking Rewards
 Stake LP(liquidity provider) tokens to mint FLAG. 
-Currently we support `3` LP tokens from Uniswap(`nWBTC`, `nWETH`, `nUSDT`)  to stake and get FLAG. 3 pools will share the rewards equally. The rewards will be calculated by year for our FLAG distribution strategy. FLAG will be allocated to who has staked proportional to the total time and the ratio of individual LP tokens to totalsupply.
+Currently we support `3` LP tokens from Uniswap(`nWBTC`, `nWETH`, `nUSDT`)  to stake and get FLAG. The rewards will be calculated by year for our FLAG distribution strategy. FLAG will be allocated to who has staked proportional to the total time and the ratio of individual LP tokens to totalsupply.
 
 ## Voting Rewards
 This is an Incentive plan to encourage everyone to participate in the governance of community.
