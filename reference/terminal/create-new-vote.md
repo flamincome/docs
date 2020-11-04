@@ -19,6 +19,6 @@ deposit-token-to-vault <string>
     create-new-vote 
     ```
 
-# waring
+# warning
 
 If you are not familiar with how to generate such a voting string, we are sorry that this command is not designed for you. Please use our aragon APP to create a vote.
