@@ -169,7 +169,7 @@ Stake LP tokens and get FLAG tokens as reward
 
    * `WBTC`
 
-   `[AMOUNT]` : The amount of tokens to stake
+   `[AMOUNT]`(optional) : The amount of tokens to stake, default value is the current balance of LP token.
 
 3. Example
 
