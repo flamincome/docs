@@ -222,7 +222,7 @@ Check the current amount of LP tokens that the user have
    connect-wallet 
    ```
 
-2. Claim staking rewards
+2. Check the amount of tokens in the account 
 
    ```sh
    get-amount-of-staking <TOKEN_SYMBOL>
@@ -254,7 +254,7 @@ Query the amount of FLAG rewards obtained by the user
    connect-wallet 
    ```
 
-2. Claim staking rewards
+2. Query staking rewards obtained via staking LP tokens
 
    ```sh
    get-earning-of-staking <TOKEN_SYMBOL>
@@ -364,3 +364,4 @@ You can remove liquidity from three Uniswap pools:
 [WETH Contract Address](https://etherscan.io/address/0xb9B1b40823e5B63d81794c6279AeBc3405B5534d#code)
 
 [WBTC Contract Address](https://etherscan.io/address/0xBc85c2b7999D4fBeA71C30Bc3ba1Cac2A0648d9E#code)
+
