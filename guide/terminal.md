@@ -8,7 +8,7 @@ Use [FlamIncome Web App](https://app.flamincome.finance/) or [Income Page of Fla
 
 Users can enter commands in FlamIncome Terminal UI for operations.
 
-For more info about the commands, see [FlamIncome Terminal Reference](https://docs.flamincome.finance/reference/terminal)
+For more info about the commands, please check out [FlamIncome Terminal Reference](https://docs.flamincome.finance/reference/terminal)
 
 ## Deposit Token to FlamIncome
 
@@ -18,7 +18,7 @@ For more info about the commands, see [FlamIncome Terminal Reference](https://do
    connect-wallet
    ```
 
-2. Withdraw tokens 
+2. Deposit tokens 
 
    ```sh
    deposit-token-to-vault <TOKEN_SYMBOL> [AMOUNT]
@@ -37,7 +37,7 @@ For more info about the commands, see [FlamIncome Terminal Reference](https://do
 
    `[AMOUNT]` (optional): default value is the current balance of account
 
-3. Example:
+3. Example
 
    Deposit `1000` `USDT`
 
@@ -45,13 +45,13 @@ For more info about the commands, see [FlamIncome Terminal Reference](https://do
    deposit-token-to-vault USDT 1000
    ```
 
-   (optional): enter the following command to see the address of flamincome token and add it to metamask (click the `Add Token` button on the `Assets`, then click on  `Custom Token` and paste the address into `Token Contract Address`)
+   (optional): Enter the following command to see the address of flamincome token and add it to metamask (click the `Add Token` button on the `Assets`, then click on  `Custom Token` and paste the address into `Token Contract Address`)
 
    ```sh
-   list-registry-of-vault
+   list-registry-of-vaults
    ```
 
-   (optional): enter the following command to see your flamincome token balance
+   (optional): Enter the following command to see your flamincome token balance
 
    ```sh
    get-balance-of-ftoken-by-symbol USDT
@@ -84,7 +84,7 @@ For more info about the commands, see [FlamIncome Terminal Reference](https://do
 
    `[AMOUNT]` (optional): default value is the current balance of account
 
-3. Example:
+3. Example
 
     Withdraw 1000 USDT
 
@@ -125,7 +125,7 @@ For more info about the commands, see [FlamIncome Terminal Reference](https://do
 
    ** It is recommended that you enter the same amount for deposit and mint.
 
-3. Example:
+3. Example
 
    Deposit 100 `fUSDT` and get 100 `nUSDT` 
 
@@ -147,6 +147,8 @@ Make sure that you have sufficient amount of tokens in your account before provi
 
 ## Stake LP Tokens
 
+Stake LP tokens and get FLAG tokens as reward
+
 1. Connect to wallet
 
    ```sh
@@ -156,7 +158,7 @@ Make sure that you have sufficient amount of tokens in your account before provi
 2. Stake liquidity tokens
 
    ```sh
-   stake-lp-token <TOKEN_SYMBOL> [AMOUNT]
+   stake-lptoken <TOKEN_SYMBOL> [AMOUNT]
    ```
 
    `<TOKEN_SYMBOL>`: can be any of the following
@@ -169,16 +171,18 @@ Make sure that you have sufficient amount of tokens in your account before provi
 
    `[AMOUNT]` : The amount of tokens to stake
 
-3. Example:
+3. Example
 
    Stake `0.01 ` `WBTC` liquidity token into corresponding pool
 
    ```sh
-   stake-lp-token WBTC 0.01 
+   stake-lptoken WBTC 0.01 
    ```
 
 
 ## Claim Staking Rewards
+
+Get FLAG token rewards earned through staking LP tokens
 
 1. Connect to wallet
 
@@ -200,15 +204,17 @@ Make sure that you have sufficient amount of tokens in your account before provi
 
    * `WBTC`
 
-3. Example:
+3. Example
 
-   Claim staking reward for WBTC account:
+   Claim staking reward in WBTC account
 
    ```sh
    claim-reward-of-staking WBTC
    ```
 
 ## Get Staking Amount
+
+Check the current amount of LP tokens that the user have
 
 1. Connect to wallet
 
@@ -230,15 +236,17 @@ Make sure that you have sufficient amount of tokens in your account before provi
 
    * `WBTC`
 
-3. Example:
+3. Example
 
-   Check the amount of staking WBTC tokens:
+   Check the amount of staked WBTC LP tokens
 
    ```sh
    get-amount-of-staking WBTC
    ```
 
 ## Get Staking Earning
+
+Query the amount of FLAG rewards obtained by the user
 
 1. Connect to wallet
 
@@ -260,9 +268,9 @@ Make sure that you have sufficient amount of tokens in your account before provi
 
    * `WBTC`
 
-3. Example:
+3. Example
 
-   Check how much you earn from staking WBTC tokens:
+   Check how many FLAG tokens you earn from staking WBTC LP tokens
 
    ```sh
    get-earning-of-staking WBTC
@@ -272,13 +280,15 @@ Make sure that you have sufficient amount of tokens in your account before provi
 
 ## Withdraw LP Tokens
 
+Withdraw LP Tokens from the account. Please note that user will no longer able to receive FLAG rewards after withdrawing the LP tokens. 
+
 1. Connect to wallet
 
    ```sh
    connect-wallet 
    ```
 
-2. Unstake the LP Tokens from Uniswap
+2. Unstake the LP Tokens 
 
    ```sh
    unstake-lptoken <TOKEN_SYMBOL> [AMOUNT]
@@ -294,9 +304,9 @@ Make sure that you have sufficient amount of tokens in your account before provi
 
    `AMOUNT`: the amount of LP Tokens to withdraw
 
-3. Example:
+3. Example
 
-   Withdraw 0.01`WBTC` liquidity token from corresponding pool
+   Withdraw 0.01`WBTC` LP token from corresponding pool
 
    ```sh
    unstake-lp-token WBTC 0.01 
@@ -339,10 +349,18 @@ You can remove liquidity from three Uniswap pools:
    - `sBTC`
    - `renBTC`
 
-3. Example:
+3. Example
 
    Burn all ntoken of `USDT` to withdraw ftoken
 
    ```
    withdrawall-ftoken-from-normalizer USDT 
    ```
+
+**Etherscan is also available for user to perform the operations above. The contract address are provided below:**
+
+[USDT Contract Address](https://etherscan.io/address/0x5da42899d108FEF66689D46025ABB5E647B8477B#code)
+
+[WETH Contract Address](https://etherscan.io/address/0xb9B1b40823e5B63d81794c6279AeBc3405B5534d#code)
+
+[WBTC Contract Address](https://etherscan.io/address/0xBc85c2b7999D4fBeA71C30Bc3ba1Cac2A0648d9E#code)
