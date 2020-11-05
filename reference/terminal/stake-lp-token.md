@@ -18,7 +18,7 @@ stake-lp-token <TOKEN_SYMBOL> [AMOUNT]
 
 # examples
 
-- stake `100` `UNI-V2[WBTC]` liquidity token into corresponding pool
+- stake `0.01` `UNI-V2[WBTC]` liquidity token into corresponding pool
 
     ```sh
     stake-lp-token UNI-V2[WBTC] 0.01 
