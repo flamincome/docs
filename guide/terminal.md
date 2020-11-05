@@ -316,11 +316,11 @@ Withdraw LP Tokens from the account. Please note that user will no longer able t
 
 You can remove liquidity from three Uniswap pools: 
 
-* [nUSDT-USDT](https://app.uniswap.org/#/add/0x2205d2f559ef91580090011aa4e0ef68ec33da44/0xdac17f958d2ee523a2206206994597c13d831ec7)
+* [nUSDT-USDT](https://app.uniswap.org/#/remove/0x2205d2f559ef91580090011aa4e0ef68ec33da44/0xdac17f958d2ee523a2206206994597c13d831ec7)
 
-* [nWETH-WETH](https://app.uniswap.org/#/add/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xe179198fd42f5de1a04ffd9a36d6dc428ceb13f7)
+* [nWETH-WETH](https://app.uniswap.org/#/remove/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/0xe179198fd42f5de1a04ffd9a36d6dc428ceb13f7)
 
-* [nWBTC-WBTC]( https://app.uniswap.org/#/add/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599/0xbb44b36e588445d7da61a1e2e426664d03d40888)
+* [nWBTC-WBTC]( https://app.uniswap.org/#/remove/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599/0xbb44b36e588445d7da61a1e2e426664d03d40888)
 
 ## Convert nToken to fToken
 
@@ -357,7 +357,7 @@ You can remove liquidity from three Uniswap pools:
    withdrawall-ftoken-from-normalizer USDT 
    ```
 
-**Etherscan is also available for user to perform the operations above. The contract address are provided below:**
+**Etherscan is also available for user to perform operations on staking LP tokens and receiving FLAG token rewards. The contract address are provided below:**
 
 [USDT Contract Address](https://etherscan.io/address/0x5da42899d108FEF66689D46025ABB5E647B8477B#code)
 
