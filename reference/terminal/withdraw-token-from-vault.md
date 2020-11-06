@@ -1,6 +1,6 @@
-# connect-wallet
+# withdraw-token-from-vault
 
-connect metamask wallet
+Withdraw tokens 
 
 # usage
 
