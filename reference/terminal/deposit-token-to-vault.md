@@ -1,8 +1,8 @@
-# connect-wallet
+# deposit-token-to-vault 
 
-connect metamask wallet
+Deposit a portion of USDT into vault and receive fUSDT 
 
-# usage
+# Usage
 
 ```sh
 deposit-token-to-vault <TOKEN_SYMBOL> [AMOUNT]
@@ -16,7 +16,7 @@ deposit-token-to-vault <TOKEN_SYMBOL> [AMOUNT]
     
 - `[AMOUNT]` (optional): default value is all of the balance of account
 
-# examples
+# Examples
 
 - deposit `100` `WBTC` to mint `fWBTC`
 
