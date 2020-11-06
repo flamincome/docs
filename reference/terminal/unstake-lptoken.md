@@ -14,7 +14,7 @@ unstake-lptoken <TOKEN_SYMBOL> [AMOUNT]
   - `WETH`
   - `WBTC`
 
-  `AMOUNT`: the amount of LP Tokens to withdraw, the default value is the current balance of LP tokens
+  `AMOUNT` (optional): the amount of LP Tokens to withdraw, the default value is the current balance of LP tokens
 
 # Example
 
