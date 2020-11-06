@@ -27,16 +27,11 @@ For more info about the commands, please check out [FlamIncome Terminal Referenc
    `<TOKEN_SYMBOL>`: can be any of the following
 
    - `USDT`
-   - `TUSD`
-   - `USDC`
-   - `DAI`
    - `WETH`
    - `WBTC`
-   - `sBTC`
-   - `renBTC`
-
+   
    `[AMOUNT]` (optional): default value is the current balance of account
-
+   
 3. Example
 
    Deposit `1000` `USDT`
@@ -74,16 +69,11 @@ For more info about the commands, please check out [FlamIncome Terminal Referenc
    `<TOKEN_SYMBOL>`: can be any of the following
 
    - `USDT`
-   - `TUSD`
-   - `USDC`
-   - `DAI`
    - `WETH`
    - `WBTC`
-   - `sBTC`
-   - `renBTC`
-
+   
    `[AMOUNT]` (optional): default value is the current balance of account
-
+   
 3. Example
 
     Withdraw 1000 USDT
@@ -111,20 +101,15 @@ For more info about the commands, please check out [FlamIncome Terminal Referenc
    `<TOKEN_SYMBOL>`: can be any of the following
 
    - `USDT`
-   - `TUSD`
-   - `USDC`
-   - `DAI`
    - `WETH`
    - `WBTC`
-   - `sBTC`
-   - `renBTC`
-
+   
    `DEPOSIT`: the amount of fTokens you want to deposit
-
+   
    `MINT`: the amount of nTokens you want to get 
-
-   ** It is recommended that you enter the same amount for deposit and mint.
-
+   
+** It is recommended that you enter the same amount for deposit and mint.
+   
 3. Example
 
    Deposit 100 `fUSDT` and get 100 `nUSDT` 
@@ -169,7 +154,7 @@ Stake LP tokens and get FLAG tokens as reward
 
    * `WBTC`
 
-   `[AMOUNT]`(optional) : The amount of tokens to stake, default value is the current balance of LP token.
+   `[AMOUNT]`(optional) : The amount of tokens to stake, the default value is the current balance of LP tokens
 
 3. Example
 
@@ -302,7 +287,7 @@ Withdraw LP Tokens from the account. Please note that user will no longer able t
 
    * `WBTC`
 
-   `AMOUNT`: the amount of LP Tokens to withdraw
+   `AMOUNT`: the amount of LP Tokens to withdraw, the default value is the current balance of LP tokens
 
 3. Example
 
@@ -341,14 +326,9 @@ You can remove liquidity from three Uniswap pools:
    `<TOKEN_SYMBOL>`: can be any of the following
 
    - `USDT`
-   - `TUSD`
-   - `USDC`
-   - `DAI`
    - `WETH`
    - `WBTC`
-   - `sBTC`
-   - `renBTC`
-
+   
 3. Example
 
    Burn all ntoken of `USDT` to withdraw ftoken
