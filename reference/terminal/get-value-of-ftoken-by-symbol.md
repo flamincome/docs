@@ -12,14 +12,9 @@ get-value-of-ftoken-by-symbol <TOKEN_SYMBOL> [address]
 
 - `<TOKEN_SYMBOL>`: can be one of the following
     - `USDT`
-    - `TUSD`
-    - `USDC`
-    - `DAI`
-    - `WETH`
     - `WBTC`
-    - `sBTC`
-    - `renBTC`
-
+    - `WETH`
+    
 - `[address]`(optional): the address of wallet; default value is the connected wallet
 
 # examples

@@ -11,16 +11,10 @@ list-registry-of-erc20s <TOKEN_SYMBOL>
 - `<TOKEN_SYMBOL>`(optional): can be one of the following
   
     - `USDT`
-    - `TUSD`
-    - `USDC`
-    - `DAI`
-    - `WETH`
     
     - `WBTC`
     
-    - `sBTC`
-    
-    - `renBTC`
+    - `WETH`
     
       default value is all of the erc20s contract registry
     

@@ -317,7 +317,7 @@ Withdraw LP Tokens from the account. Please note that user will no longer able t
    Withdraw 0.01`WBTC` LP token from corresponding pool
 
    ```sh
-   unstake-lp-token WBTC 0.01 
+   unstake-lptoken WBTC 0.01 
    ```
 
 ## <a name="removel"> Remove Liquidity in Uniswap</a>

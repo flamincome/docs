@@ -12,14 +12,9 @@ get-balance-of-erc20-by-symbol <TOKEN_SYMBOL> [address]
 
 - `<TOKEN_SYMBOL>`: can be one of the following
     - `USDT`
-    - `TUSD`
-    - `USDC`
-    - `DAI`
     - `WETH`
     - `WBTC`
-    - `sBTC`
-    - `renBTC`
-
+    
 - `[address]`(optional): the address of wallet; default value is the connected wallet
 
 # examples

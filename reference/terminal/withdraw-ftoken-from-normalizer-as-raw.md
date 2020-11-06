@@ -14,19 +14,9 @@ withdraw-ftoken-from-normalizer-as-raw <TOKEN_SYMBOL> [left] [right]
   
     - `USDT`
     
-    - `TUSD`
-    
-    - `USDC`
-    
-    - `DAI`
-    
-    - `WETH`
-    
     - `WBTC`
     
-    - `sBTC`
-    
-    - `renBTC`
+    - `WETH`
     
        there is no default value, you must enter argument
     
