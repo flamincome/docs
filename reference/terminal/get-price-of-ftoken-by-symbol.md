@@ -12,13 +12,8 @@ get-price-of-ftoken-by-symbol <TOKEN_SYMBOL>
 
 - `<TOKEN_SYMBOL>`: can be one of the following
     - `USDT`
-    - `TUSD`
-    - `USDC`
-    - `DAI`
     - `WETH`
     - `WBTC`
-    - `sBTC`
-    - `renBTC`
 
 
 # examples

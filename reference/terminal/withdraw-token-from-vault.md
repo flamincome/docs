@@ -9,16 +9,11 @@ withdraw-token-from-vault <TOKEN_SYMBOL> [AMOUNT]
 ```
 
 - `<TOKEN_SYMBOL>`: can be one of the following
-    
+  
     - `USDT`
-    - `TUSD`
-    - `USDC`
-    - `DAI`
     - `WETH`
     - `WBTC`
-    - `sBTC`
-    - `renBTC`
-
+    
 - `[AMOUNT]` (optional): default value is all of the balance of account
 
 # examples

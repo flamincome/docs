@@ -12,14 +12,9 @@ get-apy-of-ftoken-by-symbol <TOKEN_SYMBOL> [amount]
 
 - `<TOKEN_SYMBOL>`: can be one of the following
     - `USDT`
-    - `TUSD`
-    - `USDC`
-    - `DAI`
     - `WETH`
     - `WBTC`
-    - `sBTC`
-    - `renBTC`
-
+    
 - `[amount]`(optional): the amounts of blocks; default value is `10000`
 
 # examples
