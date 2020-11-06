@@ -10,9 +10,9 @@ stake-lptoken <TOKEN_SYMBOL> [AMOUNT]
 
 - `<TOKEN_SYMBOL>`: can be any of the following
   - `USDT`
-    - `WETH`
-    - `WBTC`
-    
+  - `WETH`
+  - `WBTC`
+
 - `[AMOUNT]` (optional) : The amount of tokens to stake, the default value is the current balance of LP tokens
 
 # Example
