@@ -2,7 +2,7 @@
 
 Deposit a portion of USDT into vault and receive fUSDT 
 
-# sage
+# Usage
 
 ```sh
 deposit-token-to-vault <TOKEN_SYMBOL> [AMOUNT]
